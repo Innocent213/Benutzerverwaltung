@@ -17,27 +17,26 @@
         - (A second user is also added to the administrator group).
     Features:
         General:
-            - Create user
-            - Delete user
-            - Manage users
-            - User administration
-            - Authorization management
+            - Create User
+            - Delete User
+            - Manage Users
+            - User Administration
+            - Permission Management
         Security:
-            - Password generator
-            - Hashing algorithms (currently: sha256, md5) are used to make passwords unreadable and thus secure against hackers.
+            - Password Generator
+            - Hashing Algorithms (currently: sha256, md5) are used to make passwords unreadable.
             - Password management (encryption: Zero Knowlage principle)
             - User is warned if someone has entered the password incorrectly 3 times the next time the user logs in.
-        TODO lists:
+        TODO Lists:
             - Warning when the deadline of a todo list is exceeded or about to expire.
-            - Create and manage TODO lists
+            - Create and Manage TODO Lists
         Other
             - Auto Login
-            - analytics
+            - Analytics
 
     Todo:
         - Share todos
         - Password may expire
-        - Make sure that if the user is waiting for the password to be re-entered, the password
 */
 
 #define MAX_USERNAME 30          // Maximum length of the user name
@@ -2733,7 +2732,7 @@ void clearScreen()
 void init()
 {
     printf("Inizialisiere...\n");
-    strcpy(folder, "Benutzerverwaltung/");
+    strcpy(folder, "UserManager/");
     strcpy(config_file, folder);
     strcpy(users_file, folder);
     strcpy(groups_file, folder);
