@@ -7,7 +7,7 @@
 #include <ctype.h>
 #include <unistd.h>
 #include <math.h>
-#include <C:\Users\lucac\Documents\Schule\TFO\3BT\Informatik\C_Programme\libaries\cryptography.h>
+#include ".\lib\cryptography.h"
 
 /*
     Bekannte Probleme:
